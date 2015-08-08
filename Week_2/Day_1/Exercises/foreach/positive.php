@@ -12,7 +12,11 @@
 
                 // code goes here ...
 
-
+                foreach($intArray as $number) { 
+                    if($number < 0) { 
+                        echo $number . "<br />";
+                    } 
+                } 
 
 
             ?>

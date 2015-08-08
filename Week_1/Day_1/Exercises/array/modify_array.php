@@ -14,8 +14,13 @@
             "Aric Schwartzenegger",
             "James Dallas"
         ];
+        $teachers[0] = "Joseph Backer"; 
+        $teachers[1] = "Eric Schwartz"; 
+        $teachers[2] = "James Houston";
         
         print_r($teachers);
+        
+        
         
       ?>
       </p>

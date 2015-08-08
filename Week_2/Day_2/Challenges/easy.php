@@ -11,6 +11,14 @@
   <body>
     <p>
         <?php
+        function add($sum) { 
+            $sum = array_sum(array);
+            // I don't understand why this doesn't work. 
+            // Do I need to name the array? 
+            // It says returns the result, does that mean just print it or use the return thing 
+            // so nothing actually prints? If so, why does it say echo?
+            // ?????????????????
+        } 
             echo add(array(1,2,3,4,5));
         ?>
     </p>
