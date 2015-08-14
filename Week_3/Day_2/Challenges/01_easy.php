@@ -7,7 +7,7 @@
 
         <?php
             /*
-             * Write a program that loops through $inputs['numbers'] and outputs
+             * Write a program that loops through numbers array and outputs
              * each number.
              *
              * But for multiples of three print “Fizz” instead of the number
@@ -17,8 +17,7 @@
              */
 
              $inputs = array(
-               'vowels' => array('a','e','i','o','u'),
-               'numbers' => range(0, 100)
+               array('numbers' => range(0, 100))
              );
 
         ?>
