@@ -36,6 +36,8 @@
 
                 use a loop to play each game until all oponents are out of cards
 
+                Print out the array of all the rounds. if there was a draw the round should say DRAW
+                if a player has one it should display "Player X" where X is the index of the player
                 
                */
 
