@@ -27,19 +27,13 @@
             <?php
 
           	    // code goes here ...
-          	    $numcount = 0; 
-          	    do {
-          	      $luckynumber = rand(1, 7); 
-          	      if ($luckynumber = 7) { 
-          	        echo "YOU GOT A SEVEN HOORAy!!!11!! 1 "; 
-          	      } 
-          	      else { 
-          	        // do nothing 
-          	      } 
-          	    } 
-          	     while ($luckynumber); 
+          	    do { 
+          	        $number = rand(1, 7);
+          	        echo $number . "\n"; 
+          	    }
+          	    while 
+          	        ($number != 7); 
           	    
-          	 
           	    
             ?>
         </p>
